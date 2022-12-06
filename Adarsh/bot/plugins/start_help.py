@@ -118,7 +118,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/greymatters_bots_discussion).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/FILMWORLDOFFICIA).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -128,8 +128,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ Owner", url="https://github.com/GreyMattersBot")],
-                [InlineKeyboardButton("💥 Source Code", url="https://github.com/Greymattersbot/Filestreambot-pro")]
+                [InlineKeyboardButton("💁‍♂️ Owner", url="https://t.me/FILMWORLDOFFICIA")],
+                [InlineKeyboardButton("💥 Source Code", url="https://t.me/kurachkanjiedukkatte/8")]
             ]
         )
     )
